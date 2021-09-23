@@ -1,0 +1,43 @@
+{
+  "topMenu": {
+    "logo": "Sunriver Electric",
+    "email": "EMAIL",
+    "phone": "PHONE",
+    "address": {
+      "title": "ADDRESS",
+      "location": "Building 4, No.278, Yunpu Industrial Zone, Huangpu District, Guangzhou city, Guangdong Province, P.R.China"
+    },
+    "lang": {
+      "title": "Change Language",
+      "zh": "Chinese",
+      "en": "English"
+    },
+    "home": "Profile",
+    "product": "Product",
+    "solution": "Solution",
+    "application": "Reference",
+    "support": "Service",
+    "about": "Contact",
+    "subMenu": {
+      "consult": "Consult And Feedback",
+      "download": "Download"
+    }
+  },
+  "intro": {
+    "title": "Welcome To Guangzhou Sunriver Electric Co., Ltd.",
+    "slogan": "Customized Solar Safety Solutions",
+    "button": "Product"
+  },
+  "application": {
+    "title": "Professional team, Quality assurance and Sincere service",
+    "slogan": "Product quality is strictly controlled",
+    "button": "Reference"
+  },
+  "index": {
+    "companyProfile": {
+      "title": "Sunriver Electric Co., Ltd.",
+      "brief": "Committed to the safety and quality of Photovoltaic Power Generation",
+      "content": "We Select well-known and high-quality brand components in the industry, and independently develop photovoltaic system lightning protection distribution box, which is widely used in household photovoltaic power stations and industrial and commercial power stations at home and abroad."
+    }
+  }
+}
