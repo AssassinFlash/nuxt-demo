@@ -37,7 +37,16 @@
     "companyProfile": {
       "title": "Sunriver Electric Co., Ltd.",
       "brief": "Committed to the safety and quality of Photovoltaic Power Generation",
-      "content": "We Select well-known and high-quality brand components in the industry, and independently develop photovoltaic system lightning protection distribution box, which is widely used in household photovoltaic power stations and industrial and commercial power stations at home and abroad."
+      "content": "We Select well-known and high-quality brand components in the industry, and independently develop photovoltaic system lightning protection distribution box, which is widely used in household photovoltaic power stations and industrial and commercial power stations at home and abroad. We also develop arc pulling detection equipment for photovoltaic system with a forward-looking layout to protect the safety and reliable operation of photovoltaic power stations in an all-round way.",
+      "desc": {
+        "title1": "Master Degrees engineers with over ten year experience",
+        "title2": "Professional solar safety solution supplier",
+        "title3": "Strict R&D and production inspection system",
+        "title4": "Sales and support employees worldwide"
+      }
+    },
+    "product": {
+      "title": "our recent products"
     }
   }
 }

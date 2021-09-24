@@ -6,6 +6,32 @@
           <div class="profile-thumb animated wow fadeInLeft" data-wow-duration="1500ms" data-wow-delay="0ms">
             <img src="/assets/images/company-profile.png" alt="">
           </div>
+          <ul class="profile-list-ul">
+            <li class="profile-list-li">
+              <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-duigoux" />
+              </svg>
+              {{ $t('index.companyProfile.desc.title1') }}
+            </li>
+            <li class="profile-list-li">
+              <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-duigoux" />
+              </svg>
+              {{ $t('index.companyProfile.desc.title2') }}
+            </li>
+            <li class="profile-list-li">
+              <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-duigoux" />
+              </svg>
+              {{ $t('index.companyProfile.desc.title3') }}
+            </li>
+            <li class="profile-list-li">
+              <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-duigoux" />
+              </svg>
+              {{ $t('index.companyProfile.desc.title4') }}
+            </li>
+          </ul>
         </div>
         <div class="col-lg-7 mt-50">
           <div class="profile-item">
@@ -13,48 +39,18 @@
               <h3 class="title">
                 {{ $t('index.companyProfile.title') }}
               </h3>
-              <span>{{ $t('index.companyProfile.brief') }}</span>
+              <h4>{{ $t('index.companyProfile.brief') }}</h4>
             </div>
             <div class="row">
-              <div class="col-lg-7 col-md-7">
+              <div class="col-lg-12 col-md-12">
                 <div class="profile-list-content">
                   <p>{{ $t('index.companyProfile.content') }}</p>
-                  <ul class="profile-list-ul">
-                    <li class="profile-list-li">
-                      <svg class="icon" aria-hidden="true">
-                        <use xlink:href="#icon-duigoux" />
-                      </svg>
-                      1111
-                    </li>
-                    <li><i class="flaticon-tick" />Suspe ndisse suscipit sagittis leo.</li>
-                    <li><i class="flaticon-tick" />Entum estibulum dignissim posuere.</li>
-                    <li><i class="flaticon-tick" />If you are going to use a passage.</li>
-                  </ul>
                 </div>
-              </div>
-              <div class="col-lg-5 col-md-5 col-sm-7">
-                <div class="solution-slide-item mt-50">
-                  <div class="solution-services">
-                    <i class="flaticon-creative-design" />
-                    <p>We’re providing the best industrial services</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="solution-user  d-flex align-items-center">
-              <div class="user">
-                <img src="/assets/images/solution-user.png" alt="user">
-              </div>
-              <div class="sing">
-                <img src="/assets/images/solution-sing.png" alt="user">
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="solution-shape animated wow fadeInRight" data-wow-duration="1500ms" data-wow-delay="0ms">
-      <img src="/assets/images/shape/shape-13.png" alt="">
     </div>
   </section>
 </template>
@@ -89,7 +85,25 @@ export default {
 
     .profile-thumb {
       img {
-        height: 330px;
+        height: 365px;
+      }
+    }
+
+    .profile-list-ul {
+      margin: 0;
+      padding-top: 20px;
+      padding-left: 20px;
+
+      .profile-list-li {
+        font-weight: 400;
+        line-height: 44px;
+        color: #7e8591;
+
+        .icon {
+          width: 20px;
+          height: 20px;
+          margin-right: 10px;
+        }
       }
     }
 
@@ -103,9 +117,10 @@ export default {
           font-weight: 400;
           color: #192437;
           letter-spacing: 2px;
+          text-shadow: 2px 2px 2px black;
         }
 
-        span {
+        h4 {
           display: block;
           width: 500px;
           font-size: 34px;
@@ -117,30 +132,13 @@ export default {
 
       .profile-list-content {
         p {
+          width: 500px;
+          font-size: 18px;
           font-weight: 400;
           color: #7e8591;
           line-height: 34px;
           letter-spacing: .7px;
-          padding-right: 55px;
-          padding-bottom: 26px;
-          padding-top: 41px;
-        }
-
-        .profile-list-ul {
-          margin: 0;
-          padding-top: 0;
-
-          .profile-list-li {
-            font-weight: 400;
-            line-height: 44px;
-            color: #7e8591;
-
-            .icon {
-              width: 20px;
-              height: 20px;
-              margin-right: 14px;
-            }
-          }
+          padding-top: 40px;
         }
       }
     }

@@ -6,7 +6,9 @@
           <div class="row justify-content-center">
             <div class="col-lg-10">
               <div class="banner-content text-center">
-                <span data-animation="fadeInDown" data-delay="1s">{{ $t('intro.title') }}</span>
+                <h4 data-animation="fadeInDown" data-delay="1s">
+                  {{ $t('intro.title') }}
+                </h4>
                 <h3 data-animation="fadeInDown" data-delay=".1s" class="title">
                   {{ $t('intro.slogan') }}
                 </h3>
@@ -23,7 +25,9 @@
           <div class="row justify-content-center">
             <div class="col-lg-10">
               <div class="banner-content text-center">
-                <span data-animation="fadeInDown" data-delay="1s">{{ $t('application.title') }}</span>
+                <h4 data-animation="fadeInDown" data-delay="1s">
+                  {{ $t('application.title') }}
+                </h4>
                 <h3 data-animation="fadeInDown" data-delay=".1s" class="title">
                   {{ $t('application.slogan') }}
                 </h3>
@@ -84,11 +88,11 @@ export default {
   .banner-content {
     text-align: left;
 
-    span {
+    h4 {
       font-size: 30px;
       color: white;
       background: rgba(18, 27, 43, .2);
-      line-height: 50px;
+      line-height: 60px;
       padding: 0 20px;
       letter-spacing: 1.5px;
     }

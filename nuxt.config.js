@@ -37,6 +37,10 @@ export default {
       },
       {
         rel: 'stylesheet',
+        href: '/assets/css/hover.css'
+      },
+      {
+        rel: 'stylesheet',
         href: '/assets/css/animate.min.css'
       },
       {
